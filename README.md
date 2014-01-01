@@ -2,11 +2,19 @@ Minimal Open Source Flashlight
 ======
 **Minimal Open Source Flashlight** a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
 
-![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot "MOSF Screenshot")
+![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
+
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.repat.mosf)
+
+![QR-Code](http://repat.de/Bilder/qrcode-mosf.png)
 
 ## Tested on
 * HTC Desire
 * Motorola Moto G
+* Sony Xperia Acro S
+
+Does not work on:
+* Galaxy Nexus i925/ Nexus Prime
 
 ## Artwork
 Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
