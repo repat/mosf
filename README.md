@@ -2,7 +2,7 @@ Minimal Open Source Flashlight
 ======
 **Minimal Open Source Flashlight** a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
 
-![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot "MOSF Screenshot")
+![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
 
 ## Tested on
 * HTC Desire
