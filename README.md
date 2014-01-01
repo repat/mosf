@@ -4,6 +4,8 @@ Minimal Open Source Flashlight
 
 ![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
 
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.repat.mosf)
+
 ## Tested on
 * HTC Desire
 * Motorola Moto G
