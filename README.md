@@ -11,6 +11,10 @@ Minimal Open Source Flashlight
 ## Tested on
 * HTC Desire
 * Motorola Moto G
+* Sony Xperia Acro S
+
+Does not work on:
+* Galaxy Nexus i925/ Nexus Prime
 
 ## Artwork
 Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
