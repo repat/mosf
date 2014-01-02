@@ -19,6 +19,7 @@ Minimal Open Source Flashlight
 * Samsung Galaxy S3 Mini
 * HTC Sensation
 * HTC Desire S
+* Samsung Galaxy Note 10.1
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
