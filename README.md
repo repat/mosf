@@ -16,11 +16,12 @@ Minimal Open Source Flashlight
 * HTC Desire
 * Motorola Moto G
 * Sony Xperia Acro S
-* Samsung Galaxy S3 Mini
+* Samsung Galaxy SIII Mini (GT-I8190)
 * HTC Sensation
 * HTC Desire S
 * Samsung Galaxy Note 10.1
-* Samsung Galaxy SII GT-i9100
+* Samsung Galaxy SII (GT-I9100)
+* Samsung Galaxy S4
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
