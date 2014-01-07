@@ -15,10 +15,10 @@ public class Flashlight extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         // delete title
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        
+
         // fullscreen
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -41,10 +41,10 @@ public class Flashlight extends Activity {
                 // turn off
                 if (!isChecked) {
                     if (cam != null) {
-
                         p.setFlashMode(Parameters.FLASH_MODE_OFF);
                         cam.setParameters(p);
                         cam.stopPreview();
+                        cam.setPreviewCallback(null);
                         cam.release();
                         cam = null;
                     }
@@ -53,7 +53,14 @@ public class Flashlight extends Activity {
                 // turn on
                 else {
                     if (cam == null) {
-                        cam = Camera.open();
+                        try {
+                            cam = Camera.open();
+                            // Yeah, this could be more specific maybe.
+                        } catch (RuntimeException e) {
+                            e.printStackTrace();
+                            finish();
+                            return;
+                        }
                         p = cam.getParameters();
                         p.setFlashMode(Parameters.FLASH_MODE_TORCH);
                         cam.setParameters(p);
