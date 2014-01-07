@@ -2,6 +2,8 @@ Minimal Open Source Flashlight
 ======
 **Minimal Open Source Flashlight** a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
 
+Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
+
 #### Screenshot
 ![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
 
@@ -21,7 +23,8 @@ Minimal Open Source Flashlight
 * HTC Desire S
 * Samsung Galaxy Note 10.1
 * Samsung Galaxy SII (GT-I9100)
-* Samsung Galaxy S4
+* Samsung Galaxy S4 (GT-I9505)
+* Samsung Galaxy S4 mini
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
