@@ -32,6 +32,9 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 ## Artwork
 * Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
 
+## Permissions
+* CAMERA, because the LED is internally controlled by the camera object.
+
 ## License 
 * [MIT](http://opensource.org/licenses/MIT)
 
