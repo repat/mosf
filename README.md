@@ -25,9 +25,12 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 * Samsung Galaxy SII (GT-I9100)
 * Samsung Galaxy S4 (GT-I9505)
 * Samsung Galaxy S4 mini
+* Sony Ericsson Xperia Active
+* Huawei Ascend Y300
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
+* Nexus 5
 
 ## Artwork
 * Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
