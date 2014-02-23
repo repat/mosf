@@ -9,12 +9,16 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 
 public class Flashlight extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // portrait Mode
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         // delete title
         requestWindowFeature(Window.FEATURE_NO_TITLE);
