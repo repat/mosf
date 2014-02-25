@@ -27,6 +27,9 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 * Samsung Galaxy S4 mini
 * Sony Ericsson Xperia Active
 * Huawei Ascend Y300
+* LG Optimus 2X
+* HTC Dream G1
+* Fairphone FP1
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
