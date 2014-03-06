@@ -30,10 +30,13 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 * LG Optimus 2X
 * HTC Dream G1
 * Fairphone FP1
+* Motorola Razr HD (XT925)
+* Galaxy Ace 5839i 
 
 #### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
 * Nexus 5
+* Motorola Razr (XT910)
 
 ## Artwork
 * Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
