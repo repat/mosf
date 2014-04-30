@@ -2,19 +2,21 @@ Minimal Open Source Flashlight
 ======
 **Minimal Open Source Flashlight** a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
 
-Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
+Check out the [version for older SDKs](https://github.com/repat/mosf-older-sdks).
 
-#### Screenshot
+## Screenshot
 ![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
 
-#### Google Play Store
+## Download
+
+### Google Play Store
 [![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.repat.mosf)
 
-#### Market Link
+### Market Link
 ![QR-Code](http://repat.de/Bilder/qrcode-mosf.png)
 
 ## Tested on
-#### Works on
+### Works on
 * HTC Desire
 * Motorola Moto G
 * Sony Xperia Acro S
@@ -33,7 +35,7 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 * Motorola Razr HD (XT925)
 * Galaxy Ace 5839i 
 
-#### Does not work on
+### Does not work on
 * Galaxy Nexus i925/ Nexus Prime
 * Nexus 5
 * Motorola Razr (XT910)
@@ -48,11 +50,10 @@ Check out the [version for older SDKs](http://github.com/repat/mosf-older-sdks).
 * [MIT](http://opensource.org/licenses/MIT)
 
 ## Contact
-#### repat
+### repat
 * http://repat.de
 * email: repat[at]repat[dot]de
 * XMPP: repat@jabber.ccc.de
 * Twitter: [@repat123](https://twitter.com/repat123 "repat123 on twitter")
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=repat&url=https://github.com/repat/mosf&title=mosf&language=&tags=github&category=software) 
-
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=repat&url=https://github.com/repat/mosf&title=mosf&language=&tags=github&category=software)
