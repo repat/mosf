@@ -12,6 +12,9 @@ Check out the [version for older SDKs](https://github.com/repat/mosf-older-sdks)
 ### Google Play Store
 [![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.repat.mosf)
 
+### F-Droid Repository
+[![Get it on F-Droid](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/129px-Get_it_on_F-Droid.svg.png)](https://f-droid.org/repository/browse/?fdid=de.repat.mosf)
+
 ### Market Link
 ![QR-Code](http://repat.de/Bilder/qrcode-mosf.png)
 
