@@ -1,2 +1,8 @@
 bin/
 gen/
+
+build/
+.gradle
+.idea
+local.properties
+por_hacer.md
