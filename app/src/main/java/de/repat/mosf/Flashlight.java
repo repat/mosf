@@ -10,8 +10,16 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
+import android.view.SurfaceView;
+import android.view.SurfaceHolder;
 
-public class Flashlight extends Activity {
+import java.io.IOException;
+
+public class Flashlight extends Activity implements SurfaceHolder.Callback {
+
+    Camera cam;
+    SurfaceHolder mHolder;
+    Parameters p;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,18 +37,22 @@ public class Flashlight extends Activity {
         // start GUI
         setContentView(R.layout.activity_flashlight);
 
+        //http://stackoverflow.com/questions/8876843/led-flashlight-on-galaxy-nexus-controllable-by-what-api/9379765#9379765
+        SurfaceView preview = (SurfaceView) findViewById(R.id.PREVIEW);
+        mHolder = preview.getHolder();
+        mHolder.addCallback(this);
+
         // find Switch
         Switch s = (Switch) findViewById(R.id.switchled);
 
         // listen on change
         s.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
-            Camera cam;
-            Parameters p;
+
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView,
-                    boolean isChecked) {
+                                         boolean isChecked) {
 
                 // turn off
                 if (!isChecked) {
@@ -57,21 +69,46 @@ public class Flashlight extends Activity {
                 // turn on
                 else {
                     if (cam == null) {
+                        cam = Camera.open();
                         try {
-                            cam = Camera.open();
-                            // Yeah, this could be more specific maybe.
-                        } catch (RuntimeException e) {
+                            cam.setPreviewDisplay(mHolder);
+                        } catch (IOException e) {
                             e.printStackTrace();
-                            finish();
-                            return;
                         }
-                        p = cam.getParameters();
-                        p.setFlashMode(Parameters.FLASH_MODE_TORCH);
-                        cam.setParameters(p);
-                        cam.startPreview();
                     }
+                    p = cam.getParameters();
+                    p.setFlashMode(Parameters.FLASH_MODE_TORCH);
+                    cam.setParameters(p);
+                    cam.startPreview();
                 }
             }
         });
+    }
+
+
+    @Override
+    public void surfaceCreated(SurfaceHolder holder) {
+        mHolder = holder;
+        try {
+            if (cam != null)
+                cam.setPreviewDisplay(mHolder);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Override
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+
+    }
+
+    @Override
+    public void surfaceDestroyed(SurfaceHolder holder) {
+        if (cam != null) {
+            cam.stopPreview();
+            cam.release();
+        }
+        mHolder = null;
     }
 }
