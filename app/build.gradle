@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileOptions.encoding = 'UTF-8'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "de.repat.mosf"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 6
+        versionName "1.0.4"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

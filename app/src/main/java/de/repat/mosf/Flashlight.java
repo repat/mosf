@@ -1,5 +1,7 @@
 package de.repat.mosf;
 
+import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.hardware.Camera;
 import android.hardware.Camera.Parameters;
 import android.os.Bundle;
@@ -8,8 +10,6 @@ import android.view.WindowManager;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Switch;
-import android.app.Activity;
-import android.content.pm.ActivityInfo;
 
 public class Flashlight extends Activity {
 
@@ -30,7 +30,7 @@ public class Flashlight extends Activity {
         setContentView(R.layout.activity_flashlight);
 
         // find Switch
-        Switch s = (Switch) findViewById(R.id.switchled);
+        Switch s = findViewById(R.id.switchled);
 
         // listen on change
         s.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -40,7 +40,7 @@ public class Flashlight extends Activity {
 
             @Override
             public void onCheckedChanged(CompoundButton buttonView,
-                    boolean isChecked) {
+                                         boolean isChecked) {
 
                 // turn off
                 if (!isChecked) {
@@ -52,7 +52,6 @@ public class Flashlight extends Activity {
                         cam.release();
                         cam = null;
                     }
-
                 }
                 // turn on
                 else {

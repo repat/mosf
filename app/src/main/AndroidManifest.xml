@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.repat.mosf"
-    android:versionCode="5"
-    android:versionName="1.0.3" >
-
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:screenOrientation="portrait"
-        android:targetSdkVersion="19" />
+    package="de.repat.mosf">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -20,11 +13,11 @@
     <uses-feature
         android:name="android.hardware.camera.flashlight"
         android:required="false" />
-    
+
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
-    
+
     <uses-feature
         android:name="android.hardware.screen.portrait"
         android:required="false" />
@@ -33,10 +26,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name="de.repat.mosf.Flashlight"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,5 +37,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
