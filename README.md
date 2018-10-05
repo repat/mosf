@@ -1,22 +1,26 @@
 Minimal Open Source Flashlight
 ======
-**Minimal Open Source Flashlight** a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
+**Minimal Open Source Flashlight** is a minimalistic approach to flashlights on Android. It consists of only one switch to turn the camera LED on and off. Not more. No widget. No timer. No colored display. No unnecessary artwork.
 
 Check out the [version for older SDKs](https://github.com/repat/mosf-older-sdks).
 
 ## Screenshot
-![MOSF Screenshot](http://repat.de/Bilder/mosf-screenshot.png "MOSF Screenshot")
+![MOSF Screenshot](https://repat.de/Bilder/mosf-screenshot.png)
 
 ## Download
 
 ### Google Play Store
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=de.repat.mosf)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+      alt="Get it on Google Play"
+      height="80">](https://play.google.com/store/apps/details?id=de.repat.mosf)
 
 ### F-Droid Repository
-[![Get it on F-Droid](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/129px-Get_it_on_F-Droid.svg.png)](https://f-droid.org/repository/browse/?fdid=de.repat.mosf)
+[<img src="https://f-droid.org/badge/get-it-on.png"
+      alt="Get it on F-Droid"
+      height="80">](https://f-droid.org/packages/de.repat.mosf)
 
 ### Market Link
-![QR-Code](http://repat.de/Bilder/qrcode-mosf.png)
+![QR-Code](https://repat.de/Bilder/qrcode-mosf.png)
 
 ## Tested on
 ### Works on
@@ -44,13 +48,13 @@ Check out the [version for older SDKs](https://github.com/repat/mosf-older-sdks)
 * Motorola Razr (XT910)
 
 ## Artwork
-* Icon: http://openclipart.org/detail/1638/flashlight-by-johnny_automatic
+* Icon: https://openclipart.org/detail/1638/flashlight
 
 ## Permissions
 * CAMERA, because the LED is internally controlled by the camera object.
 
 ## License 
-* [MIT](http://opensource.org/licenses/MIT)
+* [MIT](https://opensource.org/licenses/MIT)
 
 ## Contact
 ### repat
@@ -59,4 +63,4 @@ Check out the [version for older SDKs](https://github.com/repat/mosf-older-sdks)
 * XMPP: repat@jabber.ccc.de
 * Twitter: [@repat123](https://twitter.com/repat123 "repat123 on twitter")
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=repat&url=https://github.com/repat/mosf&title=mosf&language=&tags=github&category=software)
+[![Flattr this git repo](https://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=repat&url=https://github.com/repat/mosf&title=mosf&language=&tags=github&category=software)
